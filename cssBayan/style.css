@@ -8,23 +8,52 @@ html {
 body {
   background-color: #ffffff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold
+  font-weight: bold;
+  margin: 0;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  max-width: 50em;
+.main {
+  max-width: 30rem;
   margin: 0 auto;
-  background-color: #191919;
-  align-items: start;
-  padding-inline: 5%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
 }
 
-.title {
+
+.separator {
+  color:black;
+  width: 100%;
+  height: 1 rem;
+  border: 1px solid black;
+}
+
+
+
+.text {
+  color:black;
+  width: 100%;
+  height: auto;
+}
+
+.slide {
+    width: 30rem;
+    padding: 1rem 0;
+    margin: 0 auto;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+/*.title {
   font-size: 2rem;
 }
 
+ friday old
 .slide {
     width: 70%;
     padding-bottom: 0;
@@ -65,4 +94,4 @@ body {
 
 }
 
-
+*/
