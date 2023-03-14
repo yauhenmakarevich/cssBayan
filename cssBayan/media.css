@@ -27,7 +27,7 @@
   }
   
   .icon {
-    background-image: url('/assets/plus.svg');
+    background-image: url('assets/plus.svg');
     opacity: 0;
   }
   
