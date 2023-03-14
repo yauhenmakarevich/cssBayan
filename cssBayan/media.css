@@ -1,0 +1,46 @@
+@media (min-width:320px) {
+    html {
+      font-size: 62.5%;
+    }
+  }
+  
+  @media (min-width:820px) {
+    html {
+      font-size: 72.5%;
+    }
+  }
+  
+  @media (min-width:1120px) {
+    html {
+      font-size: 82.5%;
+    }
+  } 
+
+@media (hover: hover) {
+    body {
+        overflow-y: scroll;
+    }
+  
+  .container:hover * {
+    cursor: pointer;
+    color:black;
+  }
+  
+  .icon {
+    background-image: url('assets/plus.svg');
+    opacity: 0;
+  }
+  
+  .container:hover .radio~.icon {
+    opacity: 1;
+  }
+  
+  .radio:hover~.img {
+    padding-bottom: 70%;
+  }
+  
+  .radio:hover~.icon {
+    transform: rotate(45deg);
+  }
+  }
+  
